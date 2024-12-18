@@ -3,8 +3,7 @@ import java.util.Scanner; // Import Scanner for user input
 public class BubbleSortProgram { // Main class definition
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Create a Scanner object for input
-    }
-}
+
         // Accept the size of the array
         System.out.print("Enter the size of the array: ");
         int size = scanner.nextInt(); // Read the array size
@@ -17,12 +16,14 @@ public class BubbleSortProgram { // Main class definition
         for (int i = 0; i < size; i++) {
             array[i] = scanner.nextInt(); // Read each element
         }
+
         // Display the array before sorting
         System.out.print("Array before sorting: ");
         for (int num : array) {
             System.out.print(num + " ");
         }
         System.out.println(); // Move to the next line
+
         // Initialize swap count
         int swapCount = 0;
 
@@ -48,6 +49,7 @@ public class BubbleSortProgram { // Main class definition
                 break; // Exit the outer loop early
             }
         }
+
         // Display the array after sorting
         System.out.print("Array after sorting: ");
         for (int num : array) {
