@@ -48,3 +48,14 @@ public class BubbleSortProgram { // Main class definition
                 break; // Exit the outer loop early
             }
         }
+        // Display the array after sorting
+        System.out.print("Array after sorting: ");
+        for (int num : array) {
+            System.out.print(num + " ");
+        }
+        System.out.println(); // Move to the next line
+
+        // Display the total number of swaps performed
+        System.out.println("Total number of swaps: " + swapCount);
+    }
+}
