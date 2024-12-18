@@ -17,3 +17,9 @@ public class BubbleSortProgram { // Main class definition
         for (int i = 0; i < size; i++) {
             array[i] = scanner.nextInt(); // Read each element
         }
+        // Display the array before sorting
+        System.out.print("Array before sorting: ");
+        for (int num : array) {
+            System.out.print(num + " ");
+        }
+        System.out.println(); // Move to the next line
